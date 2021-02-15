@@ -1,0 +1,743 @@
+body{
+  overflow-x: hidden;
+}
+/* ===================================== nav bar =====================================================*/
+.my-main{
+  position: relative;
+  background-image: url(../imgs/kagyana-2955466_1280.jpg);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed ;
+  background-repeat: no-repeat;
+}
+
+.main-overlay {
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.my-nav {
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.my-nav .navbar-brand {
+  color: white;
+  font-size: 30px;
+}
+
+.my-nav li a {
+  color: white;
+}
+
+.book-now  {
+  text-align: right;
+}
+
+.book-now span{
+  background-color: tomato;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5%;
+}
+
+.my-words {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.my-words h1 {
+  font-size: 50px;
+}
+
+.my-words p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*============================================= my carousel ================================================*/
+.carousel-section {
+  background-color: #ffc773;
+  height: 900px;
+  padding: 40px 30px ;
+}
+
+
+
+.carousel-section .carousel-dad {
+  position: relative;
+}
+
+.carousel-section .carousel-indicators {
+  position: absolute;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  margin-left: 0;
+  justify-content: left;
+  display: block;
+}
+
+.carousel-section .carousel-indicators li {
+  margin-bottom: 30px ;
+  color: black;
+  height: auto;
+  width: 100%;
+  font-size: 20px;
+  text-indent: 0%;
+  background: none ;
+  opacity: 1;
+  padding: 7px 15px;
+  border-radius: 30px;
+}
+
+.carousel-section .carousel-indicators li.active {
+  background-color: white;
+  color: orangered;
+}
+
+.carousel-section .carousel-indicators li:first-of-type{
+  margin-top: 30px;
+}
+
+
+.carousel-section .menu-side h2 span{
+  color: orangered;
+}
+
+.carousel-section .carousel-inner {
+  position: absolute;
+  right: 0;
+}
+
+.carousel-section .carousel-inner .food {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.carousel-section .carousel-inner .food img {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.carousel-section .carousel-inner .food .overfollow-img {
+  overflow: hidden;
+  height: 300px;
+  width: 400px;
+}
+
+.carousel-section .carousel-inner .food img:hover {
+  transform: scale(1.1 , 1.1);
+}
+
+.carousel-section .carousel-inner .food h4 {
+  color: black;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.carousel-section .carousel-inner .food h5 {
+  color: orangered;
+}
+
+.icon-icon {
+  width: 30px;
+}
+
+/*========================================= sweet section ===========================================*/
+.sweet-section {
+  background-color: #ffc773;
+  padding-bottom: 40px;
+}
+
+.sweet-section .sweeticon{
+  width: 70px;
+}
+
+.sweet-section h2 {
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.sweet-section h2 span {
+  color: orangered;
+}
+
+.sweet-section .sweet {
+  border: rgb(0, 0, 0, 0.5) 1px solid;
+  padding: 20px 10px;
+  margin: 10px 45px ;
+  transition: all ease-in-out 0.3s;
+}
+
+.sweet-section .sweet:hover {
+  background-color: white;
+  box-shadow: 2px 2px 5px  gray ;
+}
+
+.sweet-section .sweet h3, .sweet h4 {
+  text-transform: capitalize;
+}
+
+.sweet-section .sweet h4 {
+  color: orangered;
+}
+
+/*================================================= customer section =========================================*/
+.customer-section {
+  position: relative;
+  background-image: url(../imgs/customerback.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.customer-section .customer-carousel {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.customer-section .main-overlay {
+  position: absolute;
+  background-color: rgb(255, 199, 115, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.customer-section .carousel-inner .carousel-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.customer-section .customer-carousel h2 {
+text-transform: capitalize;
+margin-bottom: 40px;
+}
+
+.customer-section .customer-carousel h2 span {
+  color: orangered;
+}
+
+.customer-section .carousel-inner .carousel-item h3{
+  color: orangered;
+  margin-top: 20px;
+}
+
+.customer-section .carousel-inner .carousel-item h4 {
+  margin-bottom: 50px;
+}
+
+.customer-section .carousel-inner .carousel-item p {
+  margin-bottom: 50px;
+}
+
+.customer-section .carousel-indicators li {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+}
+
+.customer-section .customer-gallery {
+  padding-top: 20px;
+}
+
+.customer-section .customer-gallery h2 {
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  }
+  
+  .customer-section .customer-gallery h2 span {
+    color: orangered;
+  }
+
+.customer-section .customer-gallery .gallery-item img {
+  height: 200px;
+  width: 280px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+.customer-section .customer-gallery .gallery-item img:hover {
+  opacity: 1;
+}
+
+/*===================================================event section ==============================================*/
+.event-section {
+  background-color: #ffc773;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.event-section h1 {
+  text-transform: capitalize;
+}
+
+.event-section .col-md-6 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.event-section h1 span {
+  color: orangered;
+}
+
+.event-section .img-party1{
+  padding-left: 40px;
+}
+
+.event-section .img-party2{
+  padding-right: 40px;
+}
+
+.event-section .text-party2{
+  padding-left: 40px;
+}
+
+.event-section .carousel-inner .carousel-item .text-party h3 , .event-section .carousel-inner .carousel-item .text-party2 h3   {
+  color: orangered;
+} 
+
+.event-section .carousel-inner .carousel-item  h2 {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.event-section .carousel-indicators li {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+/*=================================================book a table ===============================================*/
+.book-section {
+  background-image: url(../imgs/customerback.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.book-section .main-overlay {
+  position: absolute;
+  background-color: rgb(255, 199, 115, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.book-section .z-index {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+
+.book-section .z-index span {  
+  background-color: orangered; 
+  padding: 10px 20px; 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px; 
+}
+
+.footer {
+  background-color: rgb(0, 0, 0,0.6);
+  color: white;
+  padding: 20px;
+}
+
+/*==============================================for responsive ===================================================*/
+/*----phone-----*/
+/* @media screen and (max-width: 568px) {
+  .my-nav {position: relative;}
+  .book-now { position:absolute; top: 25px; right:10px;}
+  .my-words h1 {font-size: 32px;}
+  .my-words p {font-size: 20px;}
+} */
+
+@media screen and  (max-width: 600px) {
+  .my-nav {position: relative;}
+  .book-now { position:absolute; top: 25px; right:10px;}
+  .my-words h1 {font-size: 32px;}
+  .my-words p {font-size: 20px;}
+
+  /*carousel section*/
+  .menu-side h2 {
+    font-size: 20px;
+  }
+.carousel-section {
+  background-color: #ffc773;
+  height: 600px;
+  padding: 40px 30px ;
+}
+
+
+
+.carousel-section .carousel-dad {
+  position: relative;
+}
+
+.carousel-section .carousel-indicators {
+  position: absolute;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  margin-left: 0;
+  justify-content: left;
+  display: block;
+}
+
+.carousel-section .carousel-indicators li {
+  margin-bottom: 30px ;
+  color: black;
+  height: auto;
+  width: 100%;
+  font-size: 12px;
+  text-indent: 0%;
+  background: none ;
+  opacity: 1;
+  padding: 2px 7px;
+  border-radius: 20px;
+}
+
+
+
+.carousel-section .carousel-inner .food {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.carousel-section .carousel-inner .food img {
+  height: 100px;
+  width: 120px;
+  border-radius: 0px;
+  transition: all ease-in-out 0.3s;
+}
+
+.carousel-section .carousel-inner .food .overfollow-img {
+  overflow: hidden;
+  height: 100px;
+  width: 120px;
+}
+
+.carousel-section .carousel-inner .food img:hover {
+  transform: scale(1.1 , 1.1);
+}
+
+.carousel-section .carousel-inner .food h4 {
+  color: black;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.icon-icon {
+  width:20px;
+}
+
+/*sweet*/
+.sweet-section {
+  padding-left: 30px;
+}
+.sweet-section .sweet {
+  border: rgb(0, 0, 0, 0.5) 1px solid;
+  padding: 20px 10px;
+  margin: 10px 10px ;
+}
+.sweet-section .sweeticon{
+  width: 40px;
+}
+.sweet-section .sweet h3{
+  font-size: 20px;
+}
+
+.sweet-section .sweet h4{
+  font-size: 15px;
+}
+
+/*customer section*/
+.customer-section .customer-carousel {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.customer-section .customer-carousel .carousel .carousel-inner .carousel-item  {
+  text-align: center;
+}
+
+.customer-section .customer-carousel h2, .customer-section .customer-gallery h2 {
+  text-align: center;
+}
+.customer-section .customer-gallery .gallery-item{
+  text-align: center;
+}
+.customer-section .customer-gallery .gallery-item img {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+/*======event========*/
+.event-section .img-party1{
+  padding-left: 0px;
+}
+
+.event-section .img-party2{
+  padding-right: 0px;
+}
+
+.event-section .col-md-6{
+  padding-left: 0px;
+  text-align: center;
+}
+}
+
+@media screen and  (min-width: 600px) and (max-width: 768px){
+ .my-nav {position: relative;}
+  .book-now { position:absolute; top: 25px; right:10px;}
+  .my-words h1 {font-size: 32px;}
+  .my-words p {font-size: 20px;}
+
+  /*carousel section*/
+.carousel-section {
+  background-color: #ffc773;
+  height: 600px;
+  padding: 40px 30px ;
+}
+
+
+
+.carousel-section .carousel-dad {
+  position: relative;
+}
+
+.carousel-section .carousel-indicators {
+  position: absolute;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  margin-left: 0;
+  justify-content: left;
+  display: block;
+}
+
+.carousel-section .carousel-indicators li {
+  margin-bottom: 30px ;
+  color: black;
+  height: auto;
+  width: 100%;
+  font-size: 12px;
+  text-indent: 0%;
+  background: none ;
+  opacity: 1;
+  padding: 2px 7px;
+  border-radius: 20px;
+}
+
+
+
+.carousel-section .carousel-inner .food {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.carousel-section .carousel-inner .food img {
+  height: 150px;
+  width: 170px;
+  border-radius: 0px;
+  transition: all ease-in-out 0.3s;
+}
+
+.carousel-section .carousel-inner .food .overfollow-img {
+  overflow: hidden;
+  height: 150px;
+  width: 170px;
+}
+
+.carousel-section .carousel-inner .food img:hover {
+  transform: scale(1.1 , 1.1);
+}
+
+.carousel-section .carousel-inner .food h4 {
+  color: black;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.icon-icon {
+  width:20px;
+}
+
+/*sweet*/
+.sweet-section .sweet {
+  border: rgb(0, 0, 0, 0.5) 1px solid;
+  padding: 20px 10px;
+  margin: 10px 20px ;
+}
+
+/*customer section*/
+.customer-section .customer-carousel {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.customer-section .customer-carousel .carousel .carousel-inner .carousel-item  {
+  text-align: center;
+}
+
+.customer-section .customer-carousel h2, .customer-section .customer-gallery h2 {
+  text-align: center;
+}
+.customer-section .customer-gallery .gallery-item{
+  text-align: center;
+}
+.customer-section .customer-gallery .gallery-item img {
+  height: 200px;
+  width: 280px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+/*======event========*/
+.event-section .img-party1{
+  padding-left: 0px;
+}
+
+.event-section .img-party2{
+  padding-right: 0px;
+}
+
+.event-section .col-md-6{
+  padding-left: 0px;
+  text-align: center;
+}
+}
+
+
+
+
+@media screen and  (min-width: 768px) and (max-width: 990px){
+  .my-nav {position: relative;}
+  .book-now { position:absolute; top: 25px; right:10px;}
+  .my-words h1 {font-size: 32px;}
+  .my-words p {font-size: 20px;}
+
+  /*carousel section*/
+.carousel-section {
+  background-color: #ffc773;
+  height: 600px;
+  padding: 40px 30px ;
+}
+
+
+
+.carousel-section .carousel-dad {
+  position: relative;
+}
+
+.carousel-section .carousel-indicators {
+  position: absolute;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  margin-left: 0;
+  justify-content: left;
+  display: block;
+}
+
+.carousel-section .carousel-indicators li {
+  margin-bottom: 30px ;
+  color: black;
+  height: auto;
+  width: 100%;
+  font-size: 12px;
+  text-indent: 0%;
+  background: none ;
+  opacity: 1;
+  padding: 2px 7px;
+  border-radius: 20px;
+}
+
+
+
+.carousel-section .carousel-inner .food {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.carousel-section .carousel-inner .food img {
+  height: 200px;
+  width: 220px;
+  border-radius: 0px;
+  transition: all ease-in-out 0.3s;
+}
+
+.carousel-section .carousel-inner .food .overfollow-img {
+  overflow: hidden;
+  height: 200px;
+  width: 220px;
+}
+
+.carousel-section .carousel-inner .food img:hover {
+  transform: scale(1.1 , 1.1);
+}
+
+.carousel-section .carousel-inner .food h4 {
+  color: black;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.icon-icon {
+  width:20px;
+}
+
+/*sweet*/
+.sweet-section .sweet {
+  border: rgb(0, 0, 0, 0.5) 1px solid;
+  padding: 20px 10px;
+  margin: 10px 20px ;
+}
+
+/*customer section*/
+.customer-section .customer-carousel {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.customer-section .customer-carousel .carousel .carousel-inner .carousel-item  {
+  text-align: center;
+}
+
+.customer-section .customer-carousel h2, .customer-section .customer-gallery h2 {
+  text-align: center;
+}
+.customer-section .customer-gallery .gallery-item{
+  text-align: center;
+}
+.customer-section .customer-gallery .gallery-item img {
+  height: 200px;
+  width: 280px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+/*======event========*/
+.event-section .img-party1{
+  padding-left: 0px;
+}
+
+.event-section .img-party2{
+  padding-right: 0px;
+}
+
+.event-section .col-lg-6{
+  padding-left: 0px;
+  text-align: center;
+}
+}
+
+
